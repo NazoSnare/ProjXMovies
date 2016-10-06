@@ -3,7 +3,8 @@ from selenium import webdriver
 import time
 import extractSeasonURL
 
-path_to_chromedriver = '/Users/macbook/Desktop/projectUniInfo/chromedriver'
+# requires chromedriver
+path_to_chromedriver = './chromedriver'
 dlFile = 'breakingBadS2dl.txt'
 listOfLinks = []
 

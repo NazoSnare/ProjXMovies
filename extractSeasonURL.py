@@ -4,12 +4,12 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 import time
 
-
+# requires chromedriver
 url = "http://xmovies8.tv/movie/breaking-bad-season-2-2009-160922/watching.html?episode_id=16320"
 episodeFile = 'breakingBadS2url.txt'
 
 # browser = webdriver.PhantomJS(executable_path='')
-path_to_chromedriver = '/Users/macbook/Desktop/projectUniInfo/chromedriver'
+path_to_chromedriver = './chromedriver'
 
 browser = webdriver.Chrome(path_to_chromedriver)
 
