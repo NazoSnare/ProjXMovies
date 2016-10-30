@@ -3,3 +3,6 @@ phantomjs
 .idea
 
 chromedriver
+proxy.py
+LPTHWdl.py
+LPTHWhtml

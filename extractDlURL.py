@@ -34,6 +34,7 @@ with open(extractSeasonURL.episodeFile, 'r') as file:
     for url in data:
         extractURL(url)
 
+    print "--All Episode DL Secured--"
     f = open(dlFile, 'w')
     for link in listOfLinks:
         f.write(str(link + "\n"))
